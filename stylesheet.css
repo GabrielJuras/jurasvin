@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(235, 247, 97, 0.10);
+    margin:0;
+}
+header{    
+    margin:0px;
+    padding: 0px;
+    width:100%;
+    height:20vh;
+    border: 1px solid black;    
+}
+.headerstyle{    
+    position: fixed;  
+    background-color: gold;  
+}
+nav{
+    height:100%;    
+    width:100%;
+    margin:0;
+    padding: 0;
+}
+ul{
+    height:100%;
+    width:100%;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+li{    
+    width: 100%;
+    height: 100%;
+    display:inline-block;
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+a{
+    text-decoration: none;
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin:0; 
+    padding: 0;
+    align-items: center; 
+}
+.first-img-cnt{
+    box-sizing: content-box;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.nr1{
+    width:100%;
+    
+    margin-top: 0;
+    border: 1px solid black;
+    padding: 0;
+    height:100% ;
+    position: relative;
+    
+    
+}
+.second-img-cnt{
+    box-sizing: content-box;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    
+}
+.nr2{
+    width:100%;
+   
+    margin: 0;
+    padding:0;
+    border: 1px solid black;
+   
+}
+h1{
+    position: absolute;
+    display: inline;
+    top: 50%;
+    width: 20%;
+    text-align: center;
+    left: 40%;
+    padding: 0;
+    color:gold;
+    text-shadow: 0 0 50px black;    
+    margin:0;   
+    /* border: 1px solid black;  */
+    z-index: 3;
+    font-size: 400%;
+    background-color:rgba(0,0,0,0.5);
+    box-shadow: 0 0 50px black;
+}
+footer{
+    width:100%;
+    height: 80px;
+}
+
+.rolunk {
+    position: absolute;
+    display: inline;
+    z-index: 3;
+    top: 90%;
+    width: 70%;
+    left:15%;
+    color: goldenrod;
+    text-shadow: 0 0 50px black;
+    box-shadow: 0 0 50px black;
+    background-color:rgba(0,0,0,0.5);
+   
+    font-size: 200%;
+    text-align: justify;
+    margin: 0;
+}
+
+.fajtaksor {
+    position: absolute;
+    display: block;
+    z-index: 3;
+    top: 150%;
+    width: 70%;
+    left:15%;
+    color: goldenrod;
+    text-shadow: 0 0 50px black;
+    box-shadow: 0 0 50px black;
+    background-color:rgba(0,0,0,0.5);
+   
+    font-size: 200%;
+    text-align: justify;
+    margin: 0;
+}
+
+.kapcsolat{
+    color: goldenrod;
+    box-shadow: 0 0 50px black;
+    background-color:rgba(0,0,0,0.5);
+    text-shadow: 0 0 50px black;
+}
+.fajtak{
+    position: absolute;
+    color:goldenrod;
+    text-shadow: 0 0 50px black;
+    display: block;
+    top: 160%;
+    box-shadow: 0 0 50px black;
+    background-color:rgba(0,0,0,0.5);
+    width: 70%;
+    left:15%;
+    
+}
+.fajta{
+    
+    display: block;
+    top: 160%;
+    width: 70%;
+    left:15%;
+    z-index: 3;
+}
+@media (max-width: 768px){
+
+    h1  {
+        font-size: 200%;
+        top:25%;
+        width:50%;
+        left:25%;
+    }
+    li{
+        font-size: 100%;
+
+    }
+    .rolunk{
+        top:35%;
+        font-size:100% ;
+        margin-top: 50px;
+    }
+    .fajtaksor{
+        top:115%;
+        font-size:100% ;
+        margin-top: 50px;
+    }
+}
